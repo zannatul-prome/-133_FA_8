@@ -18,7 +18,7 @@ void main() {
               children: [
                 CircleAvatar(
                   radius: 40,
-                  backgroundImage: AssetImage('assets/profile.jpg'), // Add your image
+                  backgroundImage: AssetImage('images.jfif'), // Add your image
                 ),
                 SizedBox(height: 10),
                 Text(
@@ -26,7 +26,7 @@ void main() {
                   style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                 ),
                 Text(
-                  'Department of CSE',
+                  'Batch:61(c), Department of CSE',
                   style: TextStyle(color: Colors.grey[700]),
                 ),
                 Divider(thickness: 1),
